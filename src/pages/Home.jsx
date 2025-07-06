@@ -8,10 +8,11 @@ import { SkillSection } from "../components/Skills";
 import { ProjectsSection } from "../components/ProjectsSection";
 import { ContactSection } from "../components/ContactSection";
 import {Footer} from '../components/footer';
+import { EducationSection } from "../components/EducationSection";
 function Home(){
     return <div className="min-h-screen bg-background text-foreground overflow-x-hidden">
         { /* Theme Toggle */}
-        <ThemeToggle />
+        {/* <ThemeToggle /> */}
 
         { /*Background Effects */ }
         <StarBackground />
@@ -23,12 +24,17 @@ function Home(){
         <main>
             <HeroSection />
             <AboutSection />
+            <EducationSection />
             <SkillSection />
             <ProjectsSection />
             <ContactSection />
         </main>
         
         <Footer />
+
+        <div className="fixed bottom-4 left-4 z-50">
+          <ThemeToggle />
+        </div>
 
     </div>
 }
