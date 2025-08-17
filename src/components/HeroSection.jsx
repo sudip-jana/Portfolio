@@ -9,11 +9,6 @@ export const HeroSection = () => {
 
         <div className="container max-w-4xl mx-auto text-center z-10 ">
             <div className="space-y-6">
-                <img
-                    src={profile}
-                    alt="Sudip Jana"
-                    className="w-60 h-60 rounded-full object-cover mx-auto shadow-md"
-                />
 
 
                 <h1 className="text-4xl md:text-6xl font-bold tracking-tight">
