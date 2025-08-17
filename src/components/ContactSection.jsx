@@ -54,7 +54,7 @@ export const ContactSection = () => {
                   <Mail className="h-6 w-6 text-primary" />{" "}
                 </div>
                 <div>
-                  <h4 className="font-medium"> Email</h4>
+                  <h4 className="font-medium">Email</h4>
                   <a
                     href="mailto:sudipjana0702@gmail.com"
                     className="text-muted-foreground hover:text-primary transition-colors"
@@ -68,7 +68,7 @@ export const ContactSection = () => {
                   <Phone className="h-6 w-6 text-primary" />{" "}
                 </div>
                 <div>
-                  <h4 className="font-medium"> Phone</h4>
+                  <h4 className="font-medium">Phone</h4>
                   <a
                     href="tel:+919468176624"
                     className="text-muted-foreground hover:text-primary transition-colors"

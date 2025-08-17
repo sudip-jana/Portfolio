@@ -1,5 +1,4 @@
 import { ArrowDown } from "lucide-react"
-import profile from "/projects/profile.png"
 
 export const HeroSection = () => {
 
@@ -17,8 +16,9 @@ export const HeroSection = () => {
                     <span className="text-gradient ml-2 opacity-0 animate-fade-in-delay-2">Jana</span>
                 </h1>
 
-                <p className="text-lg md:text-xl text-muted-foreground max-2-2xl mx-auto opacity-0 animate-fade-in-delay-3">
-                    {/* write about your self */}
+                <p className="text-base md:text-lg lg:text-xl text-muted-foreground max-w-2xl mx-auto opacity-0 animate-fade-in-delay-3">
+                    Final-year Communication and Computer Engineering student with a strong passion for problem-solving and building impactful, real-world projects.
+                    Always eager to learn, innovate, and take on new challenges.
                 </p>
 
                 <div className="pt-4 opacity-0 animate-fade-in-delay-4">

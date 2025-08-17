@@ -1,5 +1,5 @@
 
-import { Briefcase, Code, User } from "lucide-react";
+import { Shuffle, Code , Brain } from "lucide-react";
 
 export const AboutSection = () => {
 
@@ -27,7 +27,7 @@ export const AboutSection = () => {
                     </p>
                     <div className="flex flex-col sm:flex-row gap-4 pt-4 justify-center">
                         <a href="#contact" className="cosmic-button"> Get In Touch</a>
-                        <a href="" className="px-6 py-2 rounded-full border border-primary text-primary 
+                        <a href="https://drive.google.com/file/d/1cLSwN_Th1aH43O7SdLsLQqTvw-vMMG7y/view?usp=drive_link" className="px-6 py-2 rounded-full border border-primary text-primary 
                         hover:bg-primary/15 transition-colors duration-300"> See Resume</a>
                     </div>
                 </div>
@@ -49,12 +49,11 @@ export const AboutSection = () => {
                     <div className="gradient-border p-6 card-hover">
                         <div className="flex items-start gap-4">
                             <div className="p-3 rounded-full bg-primary/10">
-                                <User className="h-6 w-6 text-primary"/>
+                                <Brain className="h-6 w-6 text-primary"/>
                             </div>
                             <div className="text-left">
-                                <h4 className="font-semibold text-lg">UI/UX Design</h4>
-                                <p className="text-muted-foreground">Designing intuitive user interfaces and seamless user
-                                    experience.
+                                <h4 className="font-semibold text-lg">Problem Solver</h4>
+                                <p className="text-muted-foreground">Problem solver driven by curiosity, creativity, and continuous learning spirit.
                                 </p>
                             </div>
                         </div>
@@ -62,12 +61,11 @@ export const AboutSection = () => {
                     <div className="gradient-border p-6 card-hover">
                         <div className="flex items-start gap-4">
                             <div className="p-3 rounded-full bg-primary/10">
-                                <Briefcase className="h-6 w-6 text-primary"/>
+                                <Shuffle className="h-6 w-6 text-primary"/>
                             </div>
                             <div className="text-left">
-                                <h4 className="font-semibold text-lg">Project Management</h4>
-                                <p className="text-muted-foreground">Leading projects from conception to 
-                                    completion with agile methodologies.
+                                <h4 className="font-semibold text-lg">Adaptability</h4>
+                                <p className="text-muted-foreground">Quickly learning and applying new technologies to solve emerging challenges.
                                 </p>
                             </div>
                         </div>

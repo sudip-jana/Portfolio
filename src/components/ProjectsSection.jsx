@@ -3,32 +3,22 @@ import { ArrowRight, ExternalLink, Github } from "lucide-react";
 const projects = [
   {
     id: 1,
-    title: "SaaS Landing Page",
-    description: "A beautiful landing page app using React and Tailwind.",
-    image: "/projects/project1.jpg",
-    tags: ["React", "TailwindCSS", "Supabase"],
-    demoUrl: "#",
-    githubUrl: "#",
+    title: "PrepMate.ai",
+    description: "AI based interview question and answer generator with session management.",
+    image: "/projects/project1.png",
+    tags: ["React", "TailwindCSS", "Express.js", "MongoDB"],
+    demoUrl: "https://prep-mate-zeta-ten.vercel.app/",
+    githubUrl: "https://github.com/sudip-jana/PrepMate",
   },
   {
     id: 2,
-    title: "Orbit Analytics Dashboard",
+    title: "Currency converter",
     description:
-      "Interactive analytics dashboard with data visualization and filtering capabilities.",
-    image: "/projects/project2.jpg",
-    tags: ["TypeScript", "D3.js", "Next.js"],
-    demoUrl: "#",
-    githubUrl: "#",
-  },
-  {
-    id: 3,
-    title: "E-commerce Platform",
-    description:
-      "Full-featured e-commerce platform with user authentication and payment processing.",
-    image: "/projects/project3.jpg",
-    tags: ["React", "Node.js", "Stripe"],
-    demoUrl: "#",
-    githubUrl: "#",
+      "A simple currency converter app that allows users to convert between different currencies. ",
+    image: "/projects/project2.png",
+    tags: ["React","JavaScript", "TailwindCSS", "API"],
+    demoUrl: "https://currency-converter-navy-nu.vercel.app/",
+    githubUrl: "https://github.com/sudip-jana/currency-converter",
   },
 ];
 
